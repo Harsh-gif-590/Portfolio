@@ -2,21 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hemant Selkar | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hemant | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
 </head>
 <body>
 
-  <!-- NAVIGATION -->
-  <input type="checkbox" id="menu-toggle" />
-  <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+  <!-- Header -->
   <header>
     <div class="container navbar">
       <div class="logo-container">
-        <img src="/assets/logo.jpg" alt="Hemant" class="logo-img" />
-        <div class="logo-name">Hemant</div>
+        <img src="assets/logo.jpg" alt="Hemant" class="logo-img" />
+        <span class="logo-name">Hemant</span>
       </div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
@@ -27,96 +29,102 @@
     </div>
   </header>
 
-  <!-- HERO SECTION -->
+  <!-- Hero -->
   <section class="hero">
     <div class="hero-content">
       <img src="/assets/hemant.jpg" alt="Hemant" class="profile-img" />
       <h1><span class="gradient-text">Hemant Selkar</span></h1>
       <p class="subtitle">Aspiring Full Stack Web Developer</p>
+      <p class="subtitle">I'm a passionate developer who loves crafting responsive & beautiful websites.</p>
+      <p class="subtitle">Skilled in HTML, CSS, Git, GitHub & MySQL — building creative frontend experiences.</p>
+
     </div>
   </section>
 
-  <!-- ABOUT -->
+  <!-- About -->
   <section class="section" id="about">
     <div class="container">
       <h2>About Me</h2>
-      <p>I am passionate about web development and love building responsive, clean, and interactive websites using HTML and CSS. I enjoy learning new technologies and continuously improving my skills.</p>
+      <p class="about-text">
+        Hello! I’m <strong>Hemant Selkar</strong>, a passionate and self-driven web developer currently pursuing B.Tech in Computer Science.
+      </p>
+      <p class="about-text">
+        I love building responsive, clean, and interactive websites using <strong>HTML</strong> and <strong>CSS</strong>. I enjoy learning new technologies and continuously improving my skills.
+      </p>
+      <p class="about-text">
+        I specialize in responsive UI and version control using <strong>Git & GitHub</strong>, and have cloned platforms like <strong>Netflix</strong>, <strong>Flipkart</strong>, and <strong>PG Social</strong>.
+      </p>
     </div>
   </section>
 
-  <!-- PROJECTS -->
+  <!-- Projects -->
   <section class="section" id="projects">
     <div class="container">
       <h2>Projects</h2>
       <div class="grid">
         <div class="card">
-          <img src="netflix.png" alt="Netflix Clone" class="project-img"/>
+          <img src="assets/netflix.png" alt="Netflix Clone" class="project-img" />
           <h3>Netflix Clone</h3>
         </div>
         <div class="card">
-          <img src="flipkart.png" alt="Flipkart Clone" class="project-img"/>
+          <img src="assets/flipkart.png" alt="Flipkart Clone" class="project-img" />
           <h3>Flipkart Clone</h3>
         </div>
         <div class="card">
-          <img src="pgsocial.png" alt="PG Social" class="project-img"/>
+          <img src="assets/PG social.png" alt="PG Social" class="project-img" />
           <h3>PG Social</h3>
         </div>
         <div class="card">
-          <img src="portfolio.png" alt="Portfolio" class="project-img"/>
+          <img src="assets/portfolio.png" alt="Portfolio" class="project-img" />
           <h3>Portfolio Website</h3>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SKILLS -->
+  <!-- Skills -->
   <section class="section" id="skills">
     <div class="container">
       <h2>Skills</h2>
       <div class="skills">
-        <span>C</span>
-        <span>C++</span>
         <span>HTML</span>
         <span>CSS</span>
+        <span>C</span>
+        <span>C++</span>
         <span>Git</span>
         <span>GitHub</span>
-        <span>MySQL</span> <!-- ✅ Added -->
+        <span>MySQL</span>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- Contact -->
   <section class="section" id="contact">
     <div class="container">
       <h2>Contact</h2>
       <form class="contact-form">
         <input type="text" placeholder="Your Name" required />
         <input type="email" placeholder="Your Email" required />
-        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
         <button type="submit">Send Message</button>
       </form>
+
       <div class="social-icons">
-        <a href="#"><i class="fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
+        <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
         <a href="#"><i class="fab fa-linkedin"></i></a>
         <a href="#"><i class="fab fa-github"></i></a>
         <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <!-- <a href="#"><i class="fab fa-whatsapp"></i></a> -->
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer class="footer">
     <div class="footer-logo">Hemant</div>
-    <div class="footer-quote">“Keep learning, keep building.”</div>
-    <div class="footer-tags">
-      <span>Developer</span>
-      <span>Frontend</span>
-      <span>UI/UX</span>
-      <span>Student</span>
-    </div>
+    <p class="footer-quote">"Code. Create. Repeat."</p>
     <div class="footer-contact">
-      <p>Email: <a href="mailto:hemant@example.com">hemant@example.com</a></p>
+      <a href="mailto:hemantselkar@example.com">hemantselkar@example.com</a>
     </div>
     <p>&copy; 2025 Hemant Selkar. All rights reserved.</p>
   </footer>
